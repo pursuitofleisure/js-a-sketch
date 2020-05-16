@@ -11,4 +11,4 @@ A canvas line-drawing app based on Wes Bos's Etch-A-Sketch Introduction to JavaS
 
 * HTML
 * CSS
-* Vanilla JS
+* Vanilla JS (ES6)
