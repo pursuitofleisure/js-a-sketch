@@ -1,6 +1,6 @@
 # JS-A-Sketch
 
-A canvas line-drawing app based on Wes Bos's Etch-A-Sketch Introduction to JavaScript exercise. Additional features include: 
+A canvas line-drawing app inspired from Wes Bos's Beginner JavaScript course. Features include: 
 
 * Directional buttons for non-keyboard input
 * Canvas overflow - allowing the user to continue drawing once the edge of the canvas has been reached by continuing the line on the other side.
