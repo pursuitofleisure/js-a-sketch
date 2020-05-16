@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Diana Le">
+  <meta name="description"
+    content="The JS-A-Sketch is a simple drawing app using Canvas that allows the user to simulate line-drawing using the directional buttons or arrow keys">
+  <title>JS-A-Sketch</title>
+  <link rel="stylesheet" href="js-a-sketch.css">
+</head>
+
+<body>
+  <h1>JS-A-Sketch</h1>
+  <p>Use your arrow keys or the buttons to start drawing!</p>
+  <div class="canvasWrap">
+    <canvas width="1600" height="1000" id="etch-a-sketch"></canvas>
+    <div class="buttons">
+      <button class="shake">Shake!</button>
+      <div class="d-pad">
+        <button class="direction up">Up</button>
+        <button class="direction down">Down</button>
+        <button class="direction left">Left</button>
+        <button class="direction right">Right</button>
+        <div class="filler"></div>
+      </div>
+    </div>
+
+  </div>
+  <footer>
+    <div class="container"><a href="https://github.com/pursuitofleisure/js-a-sketch" target="_blank">View on Github</a>
+      <a href="https://www.pursuitofleisure.com">Say Hi</a></div>
+  </footer>
+  <script src="js-a-sketch.js"></script>
+
+</body>
+
+</html>
